@@ -1,0 +1,16 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="github.controller.View1" displayBlock="true">
+    <Page id="page" title="simple form">
+        <content>
+            <sap.ui.layout.form:SimpleForm editable="true" layout="ResponsiveGridLayout" xmlns:sap.ui.layout.form="sap.ui.layout.form" xmlns:sap.ui.core="sap.ui.core" id="form0">
+                <sap.ui.layout.form:content>
+                    <sap.ui.core:Title text="Employee Details" id="title0"/>
+                    <Label text="Residential Address" id="label0" required="true"/>
+                    <Input width="100%" id="input0" placeholder="Flat No. 513, Siri Balaji Towers," required="true"/>
+                    <Input width="100%" id="input1" required="true"/>
+                    <Label text="Mobile Number" id="label1" required="true"/>
+                    <Input width="100%" id="input2" placeholder="+91-8688902951" required="true"/>
+                    <Button xmlns="sap.m" text="Submit" id="button0"/></sap.ui.layout.form:content>
+            </sap.ui.layout.form:SimpleForm>
+        </content>
+    </Page>
+</mvc:View>
